@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShpGameTemp2304", "ShpGameTemp2304.vcxproj", "{733D1EFE-C6DD-4AF1-8791-2ED2822C9293}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{733D1EFE-C6DD-4AF1-8791-2ED2822C9293}.Debug|x64.ActiveCfg = Debug|x64
+		{733D1EFE-C6DD-4AF1-8791-2ED2822C9293}.Debug|x64.Build.0 = Debug|x64
+		{733D1EFE-C6DD-4AF1-8791-2ED2822C9293}.Debug|x86.ActiveCfg = Debug|Win32
+		{733D1EFE-C6DD-4AF1-8791-2ED2822C9293}.Debug|x86.Build.0 = Debug|Win32
+		{733D1EFE-C6DD-4AF1-8791-2ED2822C9293}.Release|x64.ActiveCfg = Release|x64
+		{733D1EFE-C6DD-4AF1-8791-2ED2822C9293}.Release|x64.Build.0 = Release|x64
+		{733D1EFE-C6DD-4AF1-8791-2ED2822C9293}.Release|x86.ActiveCfg = Release|Win32
+		{733D1EFE-C6DD-4AF1-8791-2ED2822C9293}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FE07DD2-61DF-43D1-8FC3-5077EEB62FA6}
+	EndGlobalSection
+EndGlobal
