@@ -69,7 +69,9 @@ bool InputState::IsTriggered(InputType type)const
 {
 	if (type == InputType::all)
 	{
-		return !(lastPadState) &&
+		return !lastKeyState[KEY_INPUT_RETURN] &&
+			keyState[KEY_INPUT_RETURN] ||
+			!(lastPadState) &&
 			(padState);
 	}
 	else if (type == InputType::pause)
@@ -190,8 +192,8 @@ bool InputState::IsTriggered(InputType type)const
 	}
 	else if (type == InputType::avoid)
 	{
-		return !lastKeyState[KEY_INPUT_LCONTROL] &&
-			keyState[KEY_INPUT_LCONTROL] ||
+		return !lastKeyState[KEY_INPUT_SPACE] &&
+			keyState[KEY_INPUT_SPACE] ||
 			!(lastPadState & PAD_INPUT_1) &&
 			(padState & PAD_INPUT_1);
 	}
@@ -293,7 +295,7 @@ bool InputState::IsPressed(InputType type)const
 	}
 	else if (type == InputType::avoid)
 	{
-		return keyState[KEY_INPUT_LCONTROL] ||
+		return keyState[KEY_INPUT_SPACE] ||
 			(padState & PAD_INPUT_1);
 	}
 	else if (type == InputType::shot)
